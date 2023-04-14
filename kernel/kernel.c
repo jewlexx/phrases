@@ -5,6 +5,8 @@
  */
 
 #include "pico/stdlib.h"
+#include "hardware/claim.h"
+#include "hardware/structs/pwm.h"
 
 int main() {
 #ifndef PICO_DEFAULT_LED_PIN
